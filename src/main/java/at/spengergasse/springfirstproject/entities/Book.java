@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 import java.time.LocalDate;
 
 @Entity // JPA
-class Book {
+public class Book {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
